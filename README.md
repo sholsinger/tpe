@@ -7,7 +7,7 @@ Install the module with: `npm install ThreePointEstimation`
 
 ```javascript
 var ThreePointEstimation = require('ThreePointEstimation');
-ThreePointEstimation.awesome(); // "awesome"
+ThreePointEstimation.createEstimate(10, 20, 15); // 18.333333333333332
 ```
 
 ## Documentation
@@ -17,11 +17,11 @@ _(Coming soon)_
 _(Coming soon)_
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+In lieu of a formal styleguide, take care to maintain the existing coding style. (see [`.editorconfig`](https://github.com/sholsinger/tpe/blob/master/.editorconfig)) Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2015 Steve Holsinger  
+Copyright (c) 2015 Steve Holsinger
 Licensed under the MIT license.
